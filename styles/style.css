@@ -1,0 +1,162 @@
+#header{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      40px;
+}
+
+.border{
+    border: 2px;
+    border-radius: 25px;
+}
+
+.row{
+    height: 100%;
+}
+
+.foot{
+    margin-top:6%;
+}
+
+#word_div{
+    width:450px;
+    height:100px;
+    display: table;
+    margin: auto;
+    opacity: 0.85;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
+#wpm_div{
+    width:450px;
+    height:100px;
+    display: table;
+    margin: auto;
+    opacity: 0.85;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    background-color: black;
+}
+
+#word{
+    font-size: 30px;
+    color: white;
+    white-space: pre;
+    font-family: monospace;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#source_div{
+    width:500px;
+    height:100px;
+    display: table;
+    margin: auto;
+    opacity: 0.85;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    background-color: black;
+}
+
+#source{
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#wpm_text_info{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#registration{
+    background-image: url("../res/register.jpg");
+    background-size: cover;
+    font-family: consolas,monospace;
+}
+
+#background{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    opacity: 0.85;
+}
+
+#login{
+    background-image: url("../res/login.jpg");
+    background-size: cover;
+}
+
+#timeout{
+    background-image: url("../res/timeout.jpg");
+    background-size: cover;
+}
+
+#speedreader{
+    background-image: url("../res/speedreader.jpg");
+    background-size: cover;
+}
+
+#signup_form{
+    margin-top:10%;
+    float:none;
+    text-align: center;
+}
+
+#signup_text{
+    font-size: 32px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+#signup_header{
+    color: white;
+    font-size: 32px;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+}
+
+#wpm_label{
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+}
+
+#timeout_text{
+    font-size: 48px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#red{
+    color:red;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+#speedometer{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#satisfaction{
+    display: block;
+    margin: 0 auto;
+}
